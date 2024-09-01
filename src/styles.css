@@ -2,3 +2,7 @@
     background-color: crimson;
     color: aliceblue;
 }
+
+.button-danger:hover {
+    color: aliceblue;
+}

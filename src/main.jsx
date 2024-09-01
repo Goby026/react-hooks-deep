@@ -5,7 +5,8 @@ import './assets/css/skeleton.css';
 import './assets/css/normalize.css';
 import './styles.css';
 
-import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook';
+// import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook';
+import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks';
 // import { HooksApp } from './HooksApp.jsx';
 // import { CounterApp } from './01-useState/CounterApp.jsx';
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook.jsx';
@@ -13,7 +14,6 @@ import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <SimpleForm /> */}
-    <FormWithCustomHook/>
+    <MultipleCustomHooks/>
   </StrictMode>,
 )

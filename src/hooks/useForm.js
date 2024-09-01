@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 export const useForm = (initialForm = {}) => {
-
   const [formState, setFormState] = useState(initialForm);
 
   //   const { username, email, password } = formState;
@@ -14,14 +13,14 @@ export const useForm = (initialForm = {}) => {
     });
   };
 
-  const onResetForm = ()=>{
+  const onResetForm = () => {
     setFormState(initialForm);
-  }
+  };
 
   return {
     ...formState,
     formState,
     onInputChange,
-    onResetForm
+    onResetForm,
   };
 };
